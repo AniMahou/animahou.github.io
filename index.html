@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabib Hassan</title>
+  <meta name="description" content="Tabib Hassan builds computer-vision pipelines, RAG and multi-agent systems, and event-driven backends. AI Intern at Advanced AI Labs, Software Engineer at Version 3." />
+  <meta property="og:title" content="Tabib Hassan" />
+  <meta property="og:description" content="Computer vision, RAG, multi-agent systems, microservices and observability." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='8' fill='%23161513'/><circle cx='46' cy='18' r='6' fill='%23ff5a1f'/><text x='12' y='50' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23f3f0e8'>th</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="dots" aria-hidden="true"></canvas>
+
+  <header class="bar">
+    <div class="wrap bar-inner">
+      <a href="#top" class="mark" aria-label="Tabib Hassan, home">th<span>.</span></a>
+      <nav class="bar-links" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <span class="clock mono" title="Local time in Dhaka">DHK <span id="clock">--:--</span></span>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <h1 class="name" data-split aria-label="Tabib Hassan">Tabib<br />Hassan</h1>
+        <p class="rotator">
+          I build
+          <span class="rot" aria-live="polite"><span class="rot-word" id="rot">computer-vision pipelines</span></span>
+        </p>
+        <p class="hero-note">
+          AI engineer and backend developer studying Software Engineering at IUT, Dhaka.
+          I like systems that are measurable, recoverable and boring in production.
+        </p>
+        <div class="hero-links">
+          <a class="pill pill-ink magnet" href="#experience">Experience</a>
+          <a class="pill magnet" href="#work">Projects</a>
+          <a class="pill magnet" href="https://github.com/AniMahou" target="_blank" rel="noopener">GitHub</a>
+          <a class="pill magnet" href="https://www.linkedin.com/in/tabib-hassan-7873661b5/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <figure class="hero-figure" aria-hidden="true">
+        <div id="graph" class="graph"></div>
+        <figcaption class="mono">fig. 1 — a signal, passing through</figcaption>
+      </figure>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="sec wrap" id="experience">
+      <div class="sec-head">
+        <p class="label mono">01 / Experience</p>
+        <h2 class="sec-title">Where I'm working now</h2>
+      </div>
+
+      <div class="jobs">
+        <article class="job up">
+          <header class="job-head">
+            <p class="job-status mono"><span class="live"></span>Current · Internship</p>
+            <h3 class="job-org">Advanced AI Labs</h3>
+            <p class="job-role">AI Intern — Computer Vision</p>
+          </header>
+          <p class="job-sum">Building computer-vision pipelines that find <strong>fabric defects automatically</strong> for the garment (RMG) industry, working on high-resolution imagery straight from factory floors.</p>
+          <ul class="job-points">
+            <li>Semantic and instance <strong>segmentation</strong>, detection and <strong>anomaly-detection</strong> models for defect classes</li>
+            <li>High-res <strong>tiling and sliding-window inference</strong> so small defects survive downscaling</li>
+            <li><strong>Recall-first evaluation</strong> and model benchmarking, because a missed defect costs more than a false alarm</li>
+          </ul>
+          <ul class="chips mono"><li>PyTorch</li><li>OpenCV</li><li>Segmentation</li><li>Anomaly detection</li><li>Hugging Face</li></ul>
+        </article>
+
+        <article class="job up">
+          <header class="job-head">
+            <p class="job-status mono"><span class="live"></span>Current · Engineering</p>
+            <h3 class="job-org">Version 3</h3>
+            <p class="job-role">Software Engineer — Platform &amp; AI</p>
+          </header>
+          <p class="job-sum">Engineering an <strong>omnichannel commerce and messaging platform</strong> that lets businesses sell and talk to customers across channels from one place.</p>
+          <ul class="job-points">
+            <li>A <strong>unified inbox</strong> that merges conversations from every connected channel</li>
+            <li><strong>Store integrations</strong> and <strong>product-sync services</strong> that keep catalogues consistent</li>
+            <li><strong>LLM chatbots</strong> and <strong>speech-to-text</strong> for automated customer conversations</li>
+          </ul>
+          <ul class="chips mono"><li>Node.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Queues</li><li>LLMs</li><li>ASR</li></ul>
+        </article>
+      </div>
+
+      <div class="also">
+        <div class="also-item up">
+          <p class="job-status mono">Team · Co-founder</p>
+          <h3><a href="https://github.com/IUT-Dhongorsho" target="_blank" rel="noopener">IUT Dhongorsho</a></h3>
+          <p>A three-person hackathon team built around scalability, modularity and clean system design.</p>
+        </div>
+        <div class="also-item up">
+          <p class="job-status mono">Education · Class of 2028</p>
+          <h3>B.Sc. Software Engineering, IUT</h3>
+          <p>Islamic University of Technology. Software Project Labs, design patterns, and <a href="https://codeforces.com/profile/otaku_zoldyck" target="_blank" rel="noopener">competitive programming</a>.</p>
+        </div>
+        <div class="also-item finals up">
+          <p class="big-num"><span data-count="3">0</span>×</p>
+          <p class="big-cap">national hackathon finalist</p>
+          <ul class="finals-list">
+            <li><b>CUET API Avengers</b><span>CareForAll</span></li>
+            <li><b>CodeSprint, Poridhi</b><span>CareerPilot</span></li>
+            <li><b>DevSprint</b><span>DevSprint</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="sec wrap" id="about">
+      <div class="about">
+        <div>
+          <p class="label mono">02 / About</p>
+          <p class="about-lead">I work where <span class="hl">machine learning</span> meets <span class="hl">production engineering</span>, and I care about both halves.</p>
+        </div>
+        <ul class="focus">
+          <li class="up"><span class="focus-n mono">CV</span><h3>Computer vision</h3><p>Segmentation, detection and anomaly models on high-res imagery.</p></li>
+          <li class="up"><span class="focus-n mono">LLM</span><h3>LLM systems</h3><p>RAG that cites its sources, rerankers, tool-using and multi-agent setups.</p></li>
+          <li class="up"><span class="focus-n mono">API</span><h3>Backend</h3><p>Microservices, gateways, Kafka and RabbitMQ, idempotent transactions.</p></li>
+          <li class="up"><span class="focus-n mono">OPS</span><h3>Observability</h3><p>Docker, CI/CD, and Prometheus, Grafana and Loki to keep it all honest.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="sec wrap" id="work">
+      <div class="sec-head row-between">
+        <div>
+          <p class="label mono">03 / Selected work</p>
+          <h2 class="sec-title">Things I've built</h2>
+        </div>
+        <div class="filters mono" role="tablist" aria-label="Filter projects">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All <sup id="c-all"></sup></button>
+          <button class="filter" data-filter="ai" role="tab" aria-selected="false">AI <sup id="c-ai"></sup></button>
+          <button class="filter" data-filter="systems" role="tab" aria-selected="false">Systems <sup id="c-systems"></sup></button>
+          <button class="filter" data-filter="hack" role="tab" aria-selected="false">Hackathons <sup id="c-hack"></sup></button>
+        </div>
+      </div>
+
+      <ol class="projects" id="projects"></ol>
+
+      <div class="more">
+        <h3 class="more-title mono">Also on GitHub</h3>
+        <ul class="more-list" id="more-list"></ul>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="sec wrap" id="stack">
+      <div class="sec-head">
+        <p class="label mono">04 / Stack</p>
+        <h2 class="sec-title">Tools I work with</h2>
+      </div>
+      <div class="stack" id="stack-grid"></div>
+    </section>
+
+    <!-- RECENT -->
+    <section class="sec wrap" id="recent">
+      <div class="sec-head row-between">
+        <div>
+          <p class="label mono">05 / Pushed lately <span class="pulse"></span></p>
+          <h2 class="sec-title">Live from GitHub</h2>
+        </div>
+        <a class="mono ulink small-link" href="https://github.com/AniMahou?tab=repositories" target="_blank" rel="noopener">all repositories →</a>
+      </div>
+      <ul class="log mono" id="recent-list"><li class="log-empty">fetching from github…</li></ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec wrap contact" id="contact">
+      <p class="label mono">06 / Contact</p>
+      <p class="contact-lead">Research, internships, or a hard problem you want a second pair of hands on.</p>
+      <a class="email" href="mailto:tabibhassan.1604@gmail.com" data-scramble>tabibhassan.1604@gmail.com</a>
+      <ul class="elsewhere mono">
+        <li><a class="ulink" href="https://github.com/AniMahou" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a class="ulink" href="https://www.linkedin.com/in/tabib-hassan-7873661b5/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a class="ulink" href="https://github.com/IUT-Dhongorsho" target="_blank" rel="noopener">IUT Dhongorsho</a></li>
+        <li><a class="ulink" href="https://codeforces.com/profile/otaku_zoldyck" target="_blank" rel="noopener">Codeforces</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot wrap mono">
+    <span>© <span id="year"></span> Tabib Hassan · Dhaka</span>
+    <a class="ulink" href="#top">top ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie_light.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
